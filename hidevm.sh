@@ -9,9 +9,9 @@ then
 fi
 
 VMNAME=$1
-DMISERIAL="000000000"
-AHCISERIAL="00000000000000000000"
-AHCIREV="00000000"
+DMISERIAL="A00000000"
+AHCISERIAL="A0000000000000000000"
+AHCIREV="A0000000"
 
 vboxmanage setextradata $VMNAME "VBoxInternal/Devices/pcbios/0/Config/DmiBIOSVendor" "American Megatrends Inc"
 vboxmanage setextradata $VMNAME "VBoxInternal/Devices/pcbios/0/Config/DmiBIOSVersion" "2.1.0"
